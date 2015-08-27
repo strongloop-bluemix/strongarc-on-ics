@@ -1,2 +1,7 @@
 # strongarc-on-ics
-This repository allows you to quickly deploy a Docker container that runs StrongLoop's Arc into IBM Container Service
+
+### Deploy StrongLoop Process Manager to IBM Container Services on Bluemix
+_button_
+
+#### Deploy StrongLoop Arc to IBM Container Services on Bluemix
+_button_
