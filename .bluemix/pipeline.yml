@@ -65,7 +65,7 @@ stages:
       url: ${CF_TARGET_URL}
       organization: ${CF_ORGANIZATION}
       space: ${CF_SPACE}
-    PORT: '8701,3001'
+    PORT: '3000'
     CONTAINER_NAME: ${CF_APP}
     DEPLOY_TYPE: red_black
     
