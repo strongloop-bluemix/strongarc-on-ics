@@ -11,6 +11,7 @@ ENV HOME=/home/strong-arc PORT=3000
 # Run as non-privileged user inside container
 USER strong-arc
 
-# Expose strong-arc and application ports
-EXPOSE 80
+# Expose strong-arc port
+EXPOSE 3000
 
+ENTRYPOINT ["/usr/local/bin/strong-arc"]
