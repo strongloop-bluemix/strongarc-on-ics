@@ -14,4 +14,3 @@ USER strong-arc
 # Expose strong-arc and application ports
 EXPOSE 80
 
-ENTRYPOINT ["/usr/local/bin/sl-arc", "--base", ".", "--listen", "8701"]
